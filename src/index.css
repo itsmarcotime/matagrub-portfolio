@@ -1,13 +1,377 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  color: rgb(34, 33, 33);
+  font-family: Helvetica, Arial, sans-serif;
 }
+
+/* Start header */
+header {
+  padding: 20px 35px;
+  background-color: rgb(34, 33, 33);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-image: url("../images/hero-logo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 9999;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: white;
+  margin: 0;
+  background: white;
+  border: solid 5px white;
+  border-radius: 10px;
+}
+
+header a {
+  color: rgb(34, 33, 33);
+  text-decoration: none;
+  background: white;
+  margin: 10px;
+  text-shadow: 0 0 10px rgba(0,0,0, 50%);
+  border-radius: 10px;
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0px;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 1.55vw;
+}
+/* end header */
+
+
+/* start hero styles */
+.hero {
+  background-image: url("../images/hero-logo.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: fixed;
+  background-position: 80%;
+}
+
+.hero div {
+  color: rgb(34, 33, 33);
+  margin-top: 400px;
+  margin-bottom: 20px;
+  background: white;
+  padding: 10px;
+  text-shadow: 0 0 10px rgb(0, 0, 0 , 50%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+/* end hero */
+
+
+/* start about me section */
+.about-class {
+  background: rgb(24, 24, 28);
+}
+
+.div-flex {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex: 2;
+}
+
+.section-title {
+  color: rgb(34, 33, 33);
+  background: white;
+  font-size: 25px;
+  padding: 10px;
+  text-shadow: 0 0 10px rgb(0, 0, 0 , 50%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 400px;
+}
+
+.img-w-p {
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;  
+}
+
+.about-img {
+  flex: 1 12%;
+  margin: 20px;
+}
+
+.about-p {
+  color: white;
+  flex: 12;
+  font-size: 18px;
+}
+
+.about-img img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+/* end about me */
+
+
+/* start work section */
+.work-class {
+  background: rgb(24, 24, 28);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work-title {
+  color: rgb(34, 33, 33);
+  background: white;
+  font-size: 25px;
+  padding: 10px;
+  text-shadow: 0 0 10px rgb(0, 0, 0 , 50%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-right: 50px;
+}
+
+.article-work {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 45px;
+  margin-bottom: 50px;
+}
+
+.work-boxlink {
+  margin: 20px;
+  border: solid 5px white;
+  text-align: right;
+  border-radius: 10px;
+}
+
+.work-boxlink a {
+  text-decoration: none;
+}
+
+.work-info {
+  color:rgb(34, 33, 33);
+  background: white;
+  text-shadow: 0 0 10px rgb(0, 0, 0 , 50%);
+}
+/* end work */
+
+
+/* start contact section */
+.contact-class {
+  background: rgb(24, 24, 28);
+  color: white;
+  display: flex;
+}
+
+.contact-title {
+  color: rgb(34, 33, 33);
+  background: white;
+  font-size: 25px;
+  padding: 15px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 600px;
+  text-shadow: 0 0 10px rgb(0, 0, 0 , 50%);
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  margin-top: 150px;
+}
+
+.add-container {
+  font-size: 25px;
+  border: solid 5px white;
+  border-radius: 10px;
+  padding: 50px;
+  height: 235px
+}
+
+.add-container h3 {
+  padding-bottom: 20px;
+}
+
+.contact-links {
+  display: flex;
+  padding: 25px;
+}
+
+.contact-box {
+  border: solid 5px white;
+  border-radius: 10px;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.contact-box h3 {
+  background: white;
+  color: rgb(34, 33, 33);
+  text-shadow: 0 0 10px rgb(0, 0, 0 , 50%);
+}
+.contact-box a {
+  text-decoration: none;
+}
+/* end contact */
+
+
+/* start resume section */
+.resume-class {
+  background: rgb(24, 24, 28);
+  color: white;
+  display: flex;
+}
+
+.resume-tile {
+  color: rgb(34, 33, 33);
+  background: white;
+  font-size: 25px;
+  padding: 15px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-shadow: 0 0 10px rgb(0, 0, 0 , 50%);
+  margin-bottom: 500px;
+}
+
+.resume-text {
+  font-size: 25px;
+  border: solid 5px white;
+  border-radius: 10px;
+  height: 235px;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.resume-text h4 {
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.resume-text p {
+  padding: 20px
+}
+
+.resume-text a {
+  padding-bottom: 100px;
+}
+
+/***** this goes on secondary resume page may have to move *****/
+.resume-page {
+  background: rgb(24, 24, 28);
+  color: white;
+  font-weight: bold;
+}
+/******   ********/
+
+/* end resume */
+
+
+/* start footer section */
+footer {
+  background: rgb(24, 24, 28);
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  border: solid 5px white;
+
+}
+/* end footer */
+
+
+
+/* start media queries */
+
+
+/* 980px starts */
+@media screen and (max-width: 980px) {
+  .work-boxlink {
+      margin-right: 500px;
+  }
+
+  .work-boxlink:nth-child(1) {
+      width: 453px;
+  }
+  
+  .work-img img {
+      max-width: 430px;
+  }
+
+  .contact-title {
+      margin-bottom: 600px;
+  }
+
+  .contact-container {
+      margin-left: 100px;
+      margin-top: 150px;
+  }
+
+  .resume-text {
+      margin-right: 50px;
+  }
+  
+}
+/* end 980 */
+
+
+
+/* start 768 */
+@media screen and (max-width: 768px) {
+  .img-w-p {
+      margin-top: -300px;
+  }
+
+  .contact-container {
+      margin-left: 20px;
+  }
+
+
+}
+/* end 768 */
+
+
+
+/* start 575 */
+@media screen and (max-width: 575px) {
+
+  .contact-class {
+      margin: 0;
+  }
+
+  .contact-container {
+      width: 500px;
+      margin-left: -100px;
+  }
+}
+/* end 575 */
