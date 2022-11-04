@@ -1,6 +1,6 @@
 import React from "react";
 
-function Work () {
+function Resume () {
     return (
         <section>
             <h1 id="about">Who am I?</h1>
@@ -8,4 +8,4 @@ function Work () {
     );
 }
 
-export default Work;
+export default Resume;

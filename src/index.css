@@ -1,16 +1,20 @@
 * {
     box-sizing: border-box;
+    font-family: "Courier New", Courier, monospace;
+    background-color: black;
 }
 
 body {
     margin: 0;
 }
 
+/* start nav */
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 1rem;
+    margin-top: 20px;
 }
 
 .nav ul {
@@ -21,6 +25,22 @@ body {
     gap: 1rem;
 }
 
-.nav a {
+.navColor {
+    text-decoration: none;
     color: black;
+    border: orangered solid 5px;
+    background-color: orangered;
+    font-size: 25px;
+    font-weight: bold;
 }
+
+.nav a.active {
+    background-color: white;
+    border: white solid 5px;
+}
+
+.nav a:hover {
+    background-color: orange;
+    border: orange solid 5px;
+}
+
