@@ -7,6 +7,7 @@
 body {
     margin: 0;
     background-color: black;
+    border: orangered dashed 4px;
 }
 
 /* start nav */
@@ -65,5 +66,6 @@ body {
 
 .matagrub {
     border-radius: 50%;
+    border: orangered solid 7px;
 }
 
