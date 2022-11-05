@@ -1,26 +1,27 @@
 import React from "react";
-import About from "../About";
+import { Link, useMatch, useResolvedPath } from "react-router-dom";
 
 function Nav() {
     
     return (
         <nav className="nav">
             <ul>
-                <activeLink className="navColor" href="/">Home</activeLink>
-                <activeLink className="navColor" href="/about">About</activeLink>
-                <activeLink className="navColor" href="/work">Work</activeLink>
-                <activeLink className="navColor" href="/contact">Contact</activeLink>
-                <activeLink className="navColor" href="/resume">Resume</activeLink>
+                <GrubsLink to="/">Home</GrubsLink>
+                <GrubsLink to="/about">About</GrubsLink>
+                <GrubsLink to="/work">Work</GrubsLink>
+                <GrubsLink to="/contact">Contact</GrubsLink>
+                <GrubsLink to="/resume">Resume</GrubsLink>
             </ul>
         </nav>
-    )
+    );
 
-    function activeLink({ href, children, ...props }) {
-        const path = window.location.pathname
+    function GrubsLink({ to, children, ...props }) {
+        const resolvedPath = useResolvedPath(to)
+        const isActive = useMatch({ path: resolvedPath.pathname, end: true })
         return (
-            
-                <a href={href} {...props} className={path === href ? "active": ""}>{children}</a>
-            
+            <li className={isActive ? "active" : ""}>
+                <Link to={to} {...props}>{children}</Link>
+            </li>
         )
     }
 }

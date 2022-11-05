@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     font-family: "Courier New", Courier, monospace;
-    background-color: black;
 }
 
 body {
@@ -25,21 +24,30 @@ body {
     gap: 1rem;
 }
 
-.navColor {
+.nav a {
     text-decoration: none;
     color: black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+}
+
+.nav li {
     border: orangered solid 5px;
     background-color: orangered;
     font-size: 25px;
     font-weight: bold;
 }
 
-.nav a.active {
-    background-color: white;
-    border: white solid 5px;
+.nav li.active {
+    background-color: rgb(235, 6, 6);
+    border: rgb(235, 6, 6) solid 5px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
-.nav a:hover {
+.nav li:hover {
     background-color: orange;
     border: orange solid 5px;
 }

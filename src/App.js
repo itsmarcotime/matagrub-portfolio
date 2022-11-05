@@ -5,31 +5,21 @@ import About from './components/About';
 import Work from './components/Work';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import { Route, Routes } from "react-router-dom";
 
 function App() {
-  let component
-  switch (window.location.pathname) {
-    case "/":
-      component = <Home />
-      break
-    case "/about":
-      component = <About />
-      break
-    case "/work":
-      component = <Work />
-      break
-    case "/contact":
-      component = <Contact />
-      break
-    case "/resume":
-      component = <Resume />
-      break
-  }
-
   return (
     <>
-    <Nav />
-    {component}
+      <Nav />
+      <div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/work" element={<Work />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
+        </Routes>
+      </div>
     </>
   );
 }
