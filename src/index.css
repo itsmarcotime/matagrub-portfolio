@@ -1,10 +1,12 @@
 * {
     box-sizing: border-box;
     font-family: "Courier New", Courier, monospace;
+    color: orangered;
 }
 
 body {
     margin: 0;
+    background-color: black;
 }
 
 /* start nav */
@@ -50,5 +52,18 @@ body {
 .nav li:hover {
     background-color: orange;
     border: orange solid 5px;
+}
+/* end nav stuff */
+
+/*start home page */
+.home-div {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    gap: 10rem;
+}
+
+.matagrub {
+    border-radius: 50%;
 }
 
