@@ -69,3 +69,14 @@ body {
     border: orangered solid 7px;
 }
 
+.status-box {
+    border: orangered solid 3px;
+    margin: 20px;
+    margin-top: 30px;
+    background-color: orangered;
+}
+.status-text {
+    padding: 20px;
+    color: black;
+}
+
