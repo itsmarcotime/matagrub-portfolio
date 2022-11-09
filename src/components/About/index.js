@@ -4,8 +4,14 @@ import breenGrub from "../../assets/images/BreenGrub-logo.jpg"
 function About () {
     return (
         <section>
-            <h1 id="about">Who am I?</h1>
-            <img src={breenGrub} className="my-2" style={{ width: "100%" }} alt="cover" />
+
+            <div className="status-box">
+                <h3 className="status-text">
+                    Subject: Marco A. Mata <br /><br />
+                    Status: Awaiting Assignment
+                </h3>
+            </div>
+
         </section>
     );
 }

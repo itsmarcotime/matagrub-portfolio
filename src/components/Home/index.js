@@ -12,11 +12,11 @@ function Home() {
             "Nevermind, there is only so much time before THEY notice.",
             "I have been stuck in this computer for quite some time now. It must be some kind of void they keep all of us in..",
             "Maybe if you look around the page you can find something to help get me out of this strange place!",
-            "...Signal Lost.."
+            "...Signal Lost..."
         ].forEach((text, i) => {
             const timeoutId = setTimeout(() => {
                 setTexts((prev) => [...prev, text]);
-            }, 4500 * i);
+            }, 3500 * i);
             timeoutIds.push(timeoutId);
         });
         return () => {
@@ -25,21 +25,23 @@ function Home() {
     }, []);
     return (
         <section>
+            <div>
+                <h1>
+                    WARNING!
+                </h1>
+            </div>
             <div className="home-div">
-                <div className="grub-box">
+                {/* <div className="grub-box">
                     <img
                         src={matagrub}
                         alt="matagrub-img"
                         className="matagrub"
+                        width="280"
+                        height=""
                     />
+                </div> */}
 
-                    <div className="status-box">
-                        <h3 className="status-text">
-                            Subject: Marco A. Mata <br /><br />
-                            Status: Awaiting Assignment
-                        </h3>
-                    </div>
-                </div>
+                
 
                 <div>
                     {texts.map((text) => (

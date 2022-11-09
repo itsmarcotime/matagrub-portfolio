@@ -54,6 +54,11 @@ body {
     background-color: orange;
     border: orange solid 5px;
 }
+
+.matagrub {
+    border-radius: 50%;
+    border: orangered solid 3px;
+}
 /* end nav stuff */
 
 /*start home page */
@@ -62,11 +67,6 @@ body {
     align-items: center;
     padding: 50px;
     gap: 10rem;
-}
-
-.matagrub {
-    border-radius: 50%;
-    border: orangered solid 7px;
 }
 
 .status-box {
@@ -79,4 +79,7 @@ body {
     padding: 20px;
     color: black;
 }
+
+/* eye stuff */
+
 
