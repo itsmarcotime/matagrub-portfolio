@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import matagrub from "../../assets/images/matagrub.jpg";
+import Blink from 'react-blink-text';
 
 function Home() {
     const [texts, setTexts] = useState([]);
@@ -26,9 +26,9 @@ function Home() {
     return (
         <section>
             <div>
-                <h1>
+                <Blink color="red" text="WarningSign" fontSize="40">
                     WARNING!
-                </h1>
+                </Blink>
             </div>
             <div className="home-div">
                 {/* <div className="grub-box">
