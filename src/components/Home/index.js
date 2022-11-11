@@ -23,6 +23,20 @@ function Home() {
             timeoutIds.forEach((id) => clearTimeout(id));
         };
     }, []);
+
+    const eyeBall = document.querySelector(".eyeBall");
+
+    document.onmousemove = (event) => {
+        const x = event.clientX * 100 / 
+        window.innerWidth + "%";
+        const y = event.clientY * 100 /
+        window.innerHeight + "%";
+
+        eyeBall.style.left = x;
+        eyeBall.style.top = y;
+        eyeBall.style.transform = "translate(-"+x+", -"+y+")";
+    }
+
     return (
         <section>
             <div>
@@ -31,36 +45,22 @@ function Home() {
                 </Blink>
             </div>
             <div className="home-div">
-                {/* <div className="grub-box">
-                    <img
-                        src={matagrub}
-                        alt="matagrub-img"
-                        className="matagrub"
-                        width="280"
-                        height=""
-                    />
-                </div> */}
-
-                
-
                 <div>
                     {texts.map((text) => (
                         <p key={text}>{text}</p>
                     ))}
                 </div>
+            </div>
+            <div className="eye-wrapper">
+                <div className="eye">
+                    <div className="shut">
+                        <span>
+                        </span>
+                    </div>
+                    <div className="eyeBall">
 
-                {/* <div className="home-text">
-                    <p>Something is different..</p><br />
-                    <p>Someone.. is here?!</p><br />
-                    <p>How did you get here? Who let you..</p><br />
-                    <p>Nevermind, there is only so much time before THEY notice.</p><br />
-                    <p>I have been stuck in this computer for quite some time now. It must be some kind of void they
-                        keep all of us in..</p><br />
-                    <p> 
-                        Maybe if you look around the page you can find something to help get me out
-                        of this strange place!
-                    </p>
-                </div> */}
+                    </div>
+                </div>
             </div>
         </section>
     );
