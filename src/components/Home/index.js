@@ -31,36 +31,43 @@ function Home() {
         window.innerWidth + "%";
         const y = event.clientY * 100 /
         window.innerHeight + "%";
+        const z = event.clientY * 100 /
+        window.innerHeight + "%";
 
-        eyeBall.style.left = x;
-        eyeBall.style.top = y;
-        eyeBall.style.transform = "translate(-"+x+", -"+y+")";
+        eyeBall.style.top = x;
+        eyeBall.style.right = y;
+        eyeBall.style.left = z;
+        eyeBall.style.transform = "translate3d(-"+x+", -"+y+", -"+z+")";
     }
 
     return (
         <section>
-            <div>
-                <Blink color="red" text="WarningSign" fontSize="40">
-                    WARNING!
-                </Blink>
-            </div>
-            <div className="home-div">
+            <div className="homeContainer">
                 <div>
-                    {texts.map((text) => (
-                        <p key={text}>{text}</p>
-                    ))}
+                    <Blink color="red" text="Warning!!" fontSize="60" className="blinkText">
+                    </Blink>
                 </div>
-            </div>
-            <div className="eye-wrapper">
-                <div className="eye">
-                    <div className="shut">
-                        <span>
-                        </span>
-                    </div>
-                    <div className="eyeBall">
+                <div className="eyeContainer">
+                    <div className="eye-wrapper">
+                        <div className="eye">
+                            <div className="shut">
+                                <span>
+                                </span>
+                            </div>
+                            <div className="eyeBall">
 
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <div className="home-div">
+                    <div>
+                        {texts.map((text) => (
+                            <p key={text}>{text}</p>
+                        ))}
+                    </div>
+                </div>
+                
             </div>
         </section>
     );
