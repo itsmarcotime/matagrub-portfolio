@@ -24,21 +24,23 @@ function Home() {
         };
     }, []);
 
-    const eyeBall = document.querySelector(".eyeBall");
 
-    document.onmousemove = (event) => {
-        const x = event.clientX * 100 / 
-        window.innerWidth + "%";
-        const y = event.clientY * 100 /
-        window.innerHeight + "%";
-        const z = event.clientY * 100 /
-        window.innerHeight + "%";
+    
+    // const eyeBall = document.querySelector(".eyeBall");
+    
+    // document.onmousemove = (event) => {
+    //     const x = event.clientX * 100 / 
+    //     window.innerWidth + "%";
+    //     const y = event.clientY * 100 /
+    //     window.innerHeight + "%";
+    //     const z = event.clientY * 100 /
+    //     window.innerHeight + "%";
 
-        eyeBall.style.top = x;
-        eyeBall.style.right = y;
-        eyeBall.style.left = z;
-        eyeBall.style.transform = "translate3d(-"+x+", -"+y+", -"+z+")";
-    }
+    //     eyeBall.style.top = x;
+    //     eyeBall.style.right = y;
+    //     eyeBall.style.left = z;
+    //     eyeBall.style.transform = "translate3d(-"+x+", -"+y+", -"+z+")";
+    // }
 
     return (
         <section>
