@@ -24,7 +24,7 @@ function Eyeball() {
     });
     
     function angle(cx, cy, ex, ey) {
-        const dy = ey -cy;
+        const dy = ey - cy;
         const dx = ex - cx;
         const rad = Math.atan2(dy,dx);  // range (-PI, PI]
         const deg = rad * 180 / Math.PI  // rads to degs, range (-180, 180]
@@ -33,9 +33,11 @@ function Eyeball() {
     };
 
     return (
-        <div class="eye" id="eyeBall">
-            <div class="eye-inner">
-                <div class="pupil"></div>
+        <div className="eye" id="eyeBall">
+            <div className="eye-inner">
+                <div className="pupil">
+                    <div className="core"></div>
+                </div>
             </div>
         </div>
     );

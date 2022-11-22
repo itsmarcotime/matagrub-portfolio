@@ -10,15 +10,17 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <>
-      <Nav />
-      <div>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/work" element={<Work />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/resume" element={<Resume />} />
-        </Routes>
+      <div className='bigContainer'>
+        <Nav />
+        <div>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/work" element={<Work />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/resume" element={<Resume />} />
+          </Routes>
+        </div>
       </div>
     </>
   );

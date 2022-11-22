@@ -1,18 +1,14 @@
 import React from "react";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
-import matagrub from "../../assets/images/matagrub.jpg";
+
+import Eyeball from "../Eyeball";
 
 function Nav() {
     
     return (
         <nav className="nav">
             <a href="/" className="title-pic">
-                <img
-                    src={matagrub}
-                    alt="matagrub-img"
-                    className="matagrub"
-                    width={75}
-                />
+                <Eyeball></Eyeball>
             </a>
             <ul>
                 <GrubsLink to="/">Home</GrubsLink>

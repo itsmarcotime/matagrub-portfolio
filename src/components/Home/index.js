@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Blink from 'react-blink-text';
 import Eyeball from "../Eyeball";
+import matagrub from "../../assets/images/matagrub.jpg";
 
 function Home() {
     const [texts, setTexts] = useState([]);
@@ -25,24 +26,6 @@ function Home() {
         };
     }, []);
 
-
-    
-    // const eyeBall = document.querySelector(".eyeBall");
-    
-    // document.onmousemove = (event) => {
-    //     const x = event.clientX * 100 / 
-    //     window.innerWidth + "%";
-    //     const y = event.clientY * 100 /
-    //     window.innerHeight + "%";
-    //     const z = event.clientY * 100 /
-    //     window.innerHeight + "%";
-
-    //     eyeBall.style.top = x;
-    //     eyeBall.style.right = y;
-    //     eyeBall.style.left = z;
-    //     eyeBall.style.transform = "translate3d(-"+x+", -"+y+", -"+z+")";
-    // }
-
     return (
         <section>
             <div className="homeContainer">
@@ -50,8 +33,13 @@ function Home() {
                     <Blink color="red" text="Warning!!" fontSize="60" className="blinkText">
                     </Blink>
                 </div>
-                <div className="eyeContainer">
-                    <Eyeball></Eyeball>
+                <div className="">
+                <img
+                    src={matagrub}
+                    alt="matagrub-img"
+                    className="matagrub"
+                    width={75}
+                />
                 </div>
                 <div className="home-div">
                     <div>

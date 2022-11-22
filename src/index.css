@@ -1,14 +1,26 @@
 * {
     box-sizing: border-box;
     font-family: "Courier New", Courier, monospace;
-    color: orangered;
 }
 
 body {
     margin: 0;
     background-color: black;
-    border: orangered dashed 4px;
+    box-shadow: inset 10px 10px 50px 30px black;
 }
+
+/* start big container */
+.bigContainer {
+    background-color: rgb(243, 135, 11);
+    width: 95%;
+    margin-left: 35px;
+    margin-bottom: 22px;
+    margin-top: 30px;
+    border: rgb(224, 167, 101) solid 3px;
+    box-shadow: inset 10px 10px 50px 30px black;
+}
+/* end of big container */
+
 
 /* start nav */
 .nav {
@@ -37,27 +49,30 @@ body {
 }
 
 .nav li {
-    border: orangered solid 5px;
-    background-color: orangered;
+    border:  rgb(224, 167, 101) solid 3px;
+    background-color: inherit;
     font-size: 25px;
     font-weight: bold;
 }
 
 .nav li.active {
-    background-color: rgb(235, 6, 6);
-    border: rgb(235, 6, 6) solid 5px;
+    background-color: rgb(224, 167, 101);
+    border: rgb(243, 135, 11) solid 3px;
     font-size: 25px;
     font-weight: bold;
+    box-shadow: inset 5px 5px 20px black;
 }
 
 .nav li:hover {
     background-color: orange;
     border: orange solid 5px;
+    color: rgb(224, 167, 101);
+    box-shadow: inset 2px 2px 10px black;
 }
 
 .matagrub {
     border-radius: 50%;
-    border: orangered solid 3px;
+    border: rgb(224, 167, 101) solid 3px;
 }
 /* end nav stuff */
 
@@ -97,9 +112,10 @@ body {
     height: 48px;
     position: absolute;
     bottom: 41px;
-    background: orangered;
+    background: rgb(243, 135, 11);
     border-radius: 75% 0;
-    transform: translate(300%, -300%) rotate(45deg);
+    transform: translate(54%, -1212%) rotate(45deg);
+    box-shadow: 5px 5px 5px black;
 }
 
 .eye-inner {
@@ -111,6 +127,7 @@ body {
     background-color: black;
     margin-left: 4px;
     margin-top: 4px;
+    /* box-shadow: inset 1px px 4px rgb(243, 135, 11); */
 }
 .pupil {
     position: absolute;
@@ -118,7 +135,19 @@ body {
     left: 5px;
     width: 20px;
     height: 20px;
-    background: orangered;
+    background: rgb(243, 135, 11);
+    border-radius: 50%;
+    content: " ";
+    box-shadow: inset 1px 1px 2px black;
+}
+
+.core {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 5px;
+    height: 5px;
+    background: black;
     border-radius: 50%;
     content: " ";
 }
