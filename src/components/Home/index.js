@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Blink from 'react-blink-text';
+import Eyeball from "../Eyeball";
 
 function Home() {
     const [texts, setTexts] = useState([]);
@@ -50,17 +51,7 @@ function Home() {
                     </Blink>
                 </div>
                 <div className="eyeContainer">
-                    <div className="eye-wrapper">
-                        <div className="eye">
-                            <div className="shut">
-                                <span>
-                                </span>
-                            </div>
-                            <div className="eyeBall">
-
-                            </div>
-                        </div>
-                    </div>
+                    <Eyeball></Eyeball>
                 </div>
                 <div className="home-div">
                     <div>
