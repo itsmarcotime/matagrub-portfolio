@@ -28,27 +28,27 @@ function Home() {
 
     return (
         <section>
-            <div className="homeContainer">
-                <div>
-                    <Blink color="red" text="Warning!!" fontSize="60" className="blinkText">
-                    </Blink>
+            <div>
+                <Blink color="black" text="Warning!" fontSize="60" className="blinkText">
+                </Blink>
+            </div>
+            <div className="m-5 row justify-content-around">
+                <div className="grubContainer col">
+                    <img
+                        src={matagrub}
+                        alt="matagrub-img"
+                        className="matagrub"
+                        width={300}
+                        height={300}
+                    />
                 </div>
-                <div className="">
-                <img
-                    src={matagrub}
-                    alt="matagrub-img"
-                    className="matagrub"
-                    width={75}
-                />
-                </div>
-                <div className="home-div">
+                <div className="home-div col">
                     <div>
                         {texts.map((text) => (
                             <p key={text}>{text}</p>
                         ))}
                     </div>
                 </div>
-                
             </div>
         </section>
     );

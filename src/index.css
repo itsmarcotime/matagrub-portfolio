@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    background-color: black;
+    --bs-body-bg: black;
     box-shadow: inset 10px 10px 50px 30px black;
 }
 
@@ -48,15 +48,20 @@ body {
     padding: .25rem;
 }
 
+.title-pic {
+    margin-left: 20px;
+}
+
 .nav li {
     border:  rgb(224, 167, 101) solid 3px;
     background-color: inherit;
     font-size: 25px;
     font-weight: bold;
+    box-shadow: 3px 3px 5px black;
 }
 
 .nav li.active {
-    background-color: rgb(224, 167, 101);
+    background-color: rgb(243, 135, 11);
     border: rgb(243, 135, 11) solid 3px;
     font-size: 25px;
     font-weight: bold;
@@ -66,19 +71,23 @@ body {
 .nav li:hover {
     background-color: orange;
     border: orange solid 5px;
-    color: rgb(224, 167, 101);
+    --bs-link-hover-color: black;
     box-shadow: inset 2px 2px 10px black;
-}
-
-.matagrub {
-    border-radius: 50%;
-    border: rgb(224, 167, 101) solid 3px;
+    text-decoration: none;
 }
 /* end nav stuff */
 
 /*start home page */
 .homeContainer {
     display: flex;
+}
+
+.matagrub {
+    border-radius: 50%;
+    border: rgb(224, 167, 101) solid 3px;
+    margin-top: 75px;
+    margin-left: 80px;
+
 }
 
 .home-div {
@@ -101,33 +110,50 @@ body {
 
 /* blinking text */
 .blinkText {
-    font-size: large;
+    color: black;
+    font-size: 40px;
 }
+
+element.style {
+    color: black;
+    font-size: 40px;
+} 
 /* end blinking text */
 
 /* eye stuff */
 .eye {
     display: flex;
-    width: 48px;
-    height: 48px;
-    position: absolute;
-    bottom: 41px;
+    width: 60px;
+    height: 60px;
+    /* bottom: 41px; */
     background: rgb(243, 135, 11);
     border-radius: 75% 0;
-    transform: translate(54%, -1212%) rotate(45deg);
+    transform:  rotate(45deg);
     box-shadow: 5px 5px 5px black;
+    margin-left: 28px;
+}
+
+.eye:hover {
+    background-color: rgb(224, 167, 101);
+}
+
+.eye:hover .pupil {
+    background-color: rgb(224, 167, 101);
+}
+
+.eye:hover .core {
+    background-color: red;
 }
 
 .eye-inner {
     position: relative;
     display: inline-block;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     background-color: black;
-    margin-left: 4px;
-    margin-top: 4px;
-    /* box-shadow: inset 1px px 4px rgb(243, 135, 11); */
+    margin-left: 8px;
+    margin-top: 7px;
 }
 .pupil {
     position: absolute;
