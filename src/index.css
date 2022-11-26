@@ -12,10 +12,6 @@ body {
 /* start big container */
 .bigContainer {
     background-color: rgb(243, 135, 11);
-    width: 95%;
-    margin-left: 35px;
-    margin-bottom: 22px;
-    margin-top: 30px;
     border: rgb(224, 167, 101) solid 3px;
     box-shadow: inset 10px 10px 50px 30px black;
 }
@@ -58,6 +54,7 @@ body {
     font-size: 25px;
     font-weight: bold;
     box-shadow: 3px 3px 5px black;
+    border-radius: 3%;
 }
 
 .nav li.active {
@@ -84,21 +81,33 @@ body {
 
 .matagrub {
     border-radius: 50%;
-    border: rgb(224, 167, 101) solid 3px;
+    border: rgb(224, 167, 101) solid 4px;
     margin-top: 75px;
     margin-left: 80px;
-
+    box-shadow: 5px 5px 5px black;
 }
 
 .home-div {
     display: flex;
     align-items: center;
-    padding: 50px;
+    padding: 60px;
     gap: 10rem;
+    border: rgb(224, 167, 101) solid 3px;
+    border-radius: 1%;
+    box-shadow: 5px 5px 5px black;
+    text-shadow: 0 0 1px black;
+    margin-right: 75px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.home-text {
+    align-items: center;
+    padding: 30px;
 }
 
 .status-box {
-    border: orangered solid 3px;
+    border: rgb(230, 85, 33) solid 3px;
     margin: 20px;
     margin-top: 30px;
     background-color: orangered;
@@ -108,17 +117,13 @@ body {
     color: black;
 }
 
-/* blinking text */
-.blinkText {
-    color: black;
-    font-size: 40px;
+/*scrolling text */
+.marquee {
+    font-size: 23px;
+    font-weight: bold;
+    text-shadow: 0 0 1px black;
 }
-
-element.style {
-    color: black;
-    font-size: 40px;
-} 
-/* end blinking text */
+/* end scrolling text */
 
 /* eye stuff */
 .eye {

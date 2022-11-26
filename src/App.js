@@ -6,6 +6,7 @@ import Work from './components/Work';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import { Route, Routes } from "react-router-dom";
+import Footer from './components/Footer';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           </Routes>
         </div>
       </div>
+      <Footer></Footer>
     </>
   );
 }

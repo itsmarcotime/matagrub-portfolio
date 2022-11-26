@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Blink from 'react-blink-text';
-import Eyeball from "../Eyeball";
+import Marquee from "react-fast-marquee";
 import matagrub from "../../assets/images/matagrub.jpg";
 
 function Home() {
@@ -28,10 +27,14 @@ function Home() {
 
     return (
         <section>
-            <div>
-                <Blink color="black" text="Warning!" fontSize="60" className="blinkText">
-                </Blink>
-            </div>
+            <Marquee className="marquee" gradientColor="[0,0,0]" gradientWidth="600">
+                Welcome to my webpage.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;👾&nbsp;&nbsp;&nbsp;👾&nbsp;&nbsp;&nbsp;👾&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Feel free to lurk.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;👾&nbsp;&nbsp;&nbsp;👾&nbsp;&nbsp;&nbsp;👾&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                You'll be glad you came. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;👾&nbsp;&nbsp;&nbsp;👾&nbsp;&nbsp;&nbsp;👾&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </Marquee>
             <div className="m-5 row justify-content-around">
                 <div className="grubContainer col">
                     <img
@@ -43,7 +46,7 @@ function Home() {
                     />
                 </div>
                 <div className="home-div col">
-                    <div>
+                    <div className="home-text">
                         {texts.map((text) => (
                             <p key={text}>{text}</p>
                         ))}
