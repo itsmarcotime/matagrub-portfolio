@@ -3,6 +3,10 @@
     font-family: "Courier New", Courier, monospace;
 }
 
+#root {
+    height: 100vh;
+}
+
 body {
     margin: 0;
     --bs-body-bg: black;
@@ -74,6 +78,49 @@ body {
 }
 /* end nav stuff */
 
+/*scrolling text */
+.marquee {
+    font-size: 23px;
+    font-weight: bold;
+    text-shadow: 0 0 1px black;
+}
+/* end scrolling text */
+
+/* start footer */
+.footer-box {
+    background-color: #333;
+    position: absolute;
+    list-style: none;
+    padding: 15px;
+}
+
+.footer-text {
+    text-decoration: none;
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    text-shadow: 0px 0px 5px orange;
+}
+
+.icon-list {
+    padding: 10px;
+}
+
+.iconBox a {
+    color: black;
+    font-size: 35px;
+}
+
+.iconClass {
+    filter:drop-shadow(0px 0px 10px rgb(243, 135, 11));
+}
+
+.copyrightbox {
+}
+
 /*start home page */
 .homeContainer {
     display: flex;
@@ -116,14 +163,7 @@ body {
     padding: 20px;
     color: black;
 }
-
-/*scrolling text */
-.marquee {
-    font-size: 23px;
-    font-weight: bold;
-    text-shadow: 0 0 1px black;
-}
-/* end scrolling text */
+/* end home stuff */
 
 /* eye stuff */
 .eye {
@@ -183,8 +223,3 @@ body {
     content: " ";
 }
 /* end eye stuff */
-
-
-
-
-
