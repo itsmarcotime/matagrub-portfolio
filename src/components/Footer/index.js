@@ -45,10 +45,10 @@ function Footer() {
                 </li>
                 <li>
                     <div className="text-center copyrightbox">
-                        <p>
+                        <p className="footerP">
                             Created by Marco A. Mata <FontAwesomeIcon icon={faCopyright} className="iconClass"/>
                         </p>
-                        <p>
+                        <p className="footerP">
                             2022
                         </p>
                     </div>

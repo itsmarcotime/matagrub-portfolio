@@ -17,7 +17,8 @@ body {
 .bigContainer {
     background-color: rgb(243, 135, 11);
     border: rgb(224, 167, 101) solid 3px;
-    box-shadow: inset 10px 10px 50px 30px black;
+    box-shadow: inset 30px 30px 100px 40px black;
+    
 }
 /* end of big container */
 
@@ -92,6 +93,7 @@ body {
     position: absolute;
     list-style: none;
     padding: 15px;
+    box-shadow: inset 10px 10px 100px black;
 }
 
 .footer-text {
@@ -103,6 +105,11 @@ body {
     color: black;
     font-weight: bolder;
     text-shadow: 0px 0px 5px orange;
+    font-size: 18px;
+}
+
+.footer-text a:hover {
+    color: rgb(224, 167, 101);
 }
 
 .icon-list {
@@ -114,11 +121,19 @@ body {
     font-size: 35px;
 }
 
-.iconClass {
-    filter:drop-shadow(0px 0px 10px rgb(243, 135, 11));
+.iconBox a:hover {
+    color: rgb(224, 167, 101);
 }
 
-.copyrightbox {
+.iconClass {
+    filter:drop-shadow(0px 0px 10px orange);
+}
+
+.footerP {
+    text-shadow: 0px 0px 10px orange;
+    font-weight: bolder;
+    color: black;
+    font-size: 19px;
 }
 
 /*start home page */
