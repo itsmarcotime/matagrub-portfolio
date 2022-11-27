@@ -8,7 +8,7 @@ import Resume from './components/Resume';
 import { Route, Routes } from "react-router-dom";
 import Footer from './components/Footer';
 import "bootstrap/dist/css/bootstrap.min.css";
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 
 
 function App() {
