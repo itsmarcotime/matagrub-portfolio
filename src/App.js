@@ -8,10 +8,18 @@ import Resume from './components/Resume';
 import { Route, Routes } from "react-router-dom";
 import Footer from './components/Footer';
 import "bootstrap/dist/css/bootstrap.min.css";
+import {Helmet} from "react-helmet";
+
 
 function App() {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Marco A. Mata</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+        <meta name="description" content="Matagrub Portfolio" />
+      </Helmet>
       <div className='bigContainer'>
         <Nav />
         <div>

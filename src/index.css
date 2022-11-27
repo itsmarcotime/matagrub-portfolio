@@ -157,7 +157,7 @@ body {
     border: rgb(224, 167, 101) solid 3px;
     border-radius: 1%;
     box-shadow: 5px 5px 5px black;
-    text-shadow: 0 0 1px black;
+    text-shadow: 1px 1px 8px black;
     margin-right: 75px;
     font-weight: bold;
     font-size: 17px;

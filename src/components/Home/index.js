@@ -9,10 +9,10 @@ function Home() {
         const timeoutIds = [];
 
         [
-            "...Loading...", "Something is different..", "Someone.. is here?!", "How did you get here? Who let you..",
-            "Nevermind, there is only so much time before THEY notice.",
-            "I have been stuck in this computer for quite some time now. It must be some kind of void they keep all of us in..",
-            "Maybe if you look around the page you can find something to help get me out of this strange place!",
+            "...Loading...", "Something is different... 🤔", "Someone.. is here?! 🤯", "How did you get here?? Who let you...",
+            "Nevermind, there is only so much time before THEY notice. 🕒",
+            "I have been stuck in this computer for quite some time now. It must be some kind of void they keep all of us in... 😵",
+            "Maybe if you look around the page you can find something to help get me out of this strange place! 🕵🕵🕵",
             "...Signal Lost..."
         ].forEach((text, i) => {
             const timeoutId = setTimeout(() => {
