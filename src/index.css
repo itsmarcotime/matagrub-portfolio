@@ -373,3 +373,19 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+/* end work page */
+
+
+/* start contact page */
+.contacticon {
+    list-style: none;
+    font-size: 50px;
+}
+
+.contactcontainer {
+    padding-left: 50px;
+}
+
+.contactlist {
+    list-style: none;
+}
