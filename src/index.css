@@ -272,3 +272,94 @@ body {
     font-size: 20px;
 }
 /* end about */
+
+
+/* start work page */
+.worktitle {
+background-color: #333;
+}
+
+.maincontainer {
+    position: relative;
+    width: 250px;
+    height: 400px;
+    margin: 40px;
+}
+
+.workBox {
+    margin-bottom: 100px;
+}
+
+.thecard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    margin: 30px;
+    margin-left: 100px;
+    
+}
+
+.card-text {
+    font-size: 13px;
+    padding-top: 20px;
+}
+
+.thecard:hover {
+    transform: rotateY(180deg);
+}
+
+.thefront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border: solid 3px rgb(224, 167, 101);
+    border-radius: 1%;
+    background: #333;
+    box-shadow: inset 10px 10px 100px black;
+    color: rgb(224, 167, 101);
+    text-shadow: 0px 0px 5px orange;
+    font-weight: bold;
+}
+
+.theback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border: solid 3px rgb(224, 167, 101);
+    border-radius: 1%;
+    background: #333;
+    box-shadow: inset 10px 10px 100px black;
+    color: rgb(224, 167, 101);
+    text-shadow: 0px 0px 5px orange;
+    font-weight: bold;
+    transform: rotateY(180deg);
+}
+
+.cardbutton {
+    margin: 30px;
+    margin-top: 100px;
+}
+
+.formbox {
+    background-color: rgb(243, 135, 11);
+    box-shadow: 0px 0px 20px black;
+    color: black;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px rgb(224, 167, 101);
+    border: solid 2px rgb(224, 167, 101);
+    border-radius: 2%;
+}
+
+.formbox:hover {
+    color: rgb(224, 167, 101);
+    text-shadow: 0px 0px 10px orange;
+}
+
+.cardtitle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
