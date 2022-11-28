@@ -7,7 +7,7 @@ function Work () {
     return (
         <section>
             <div >
-                <h1 className="worktitle">My Projects</h1>
+                <h1 className="worktitle">My Projects 👁</h1>
             </div>
             <div className="container justify-content-center row text-center workBox">
                 <div className="col-3 maincontainer">
