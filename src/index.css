@@ -388,4 +388,16 @@ body {
 
 .contactlist {
     list-style: none;
+    padding: 20px;
+    margin-bottom: 20px;
 }
+
+.contacttitle {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.firstcontact {
+    margin-bottom: 40px;
+}
+/* end contact page */

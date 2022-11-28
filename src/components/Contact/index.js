@@ -8,11 +8,11 @@ function Contact () {
     return (
         <section>
             <div className="container text-center">
-                <div className="col-12">
+                <div className="col-12 contacttitle">
                     <h1>Contact Me</h1>
                     <h4>You'll be glad you did.</h4>
                 </div>
-                <div>
+                <div className="firstcontact">
                     <div className="container row contactcontainer">
                         <div className="col-6">
                             <ul>
