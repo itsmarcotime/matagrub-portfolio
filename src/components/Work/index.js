@@ -1,7 +1,9 @@
 import React from "react";
-import RBFpic from "../../assets/images/Recipe-Beverage-Finder.png"
-import ForgottenPages from "../../assets/images/https-theforgottenpages-herokuapp-com.png"
-import RestaurantHelper from "../../assets/images/project-3-image.png"
+import RBFpic from "../../assets/images/Recipe-Beverage-Finder.png";
+import ForgottenPages from "../../assets/images/https-theforgottenpages-herokuapp-com.png";
+import RestaurantHelper from "../../assets/images/project-3-image.png";
+import RunBuddy from "../../assets/images/run-buddy-logo.png";
+
 
 function Work () {
     return (
@@ -144,12 +146,12 @@ function Work () {
                         <div className="thefront">
                             <div className="container">
                                 <div className="col-12 cardtitle">
-                                    Recipe & Beverage Finder 4
+                                    Run Buddy
                                 </div>
                                 <div className="col-12 cardimg">
                                     <img
-                                        src={RBFpic}
-                                        alt="recipe-beverage-finder"
+                                        src={RunBuddy}
+                                        alt="run-buddy"
                                         className=""
                                         width={250}
                                         height={100}
@@ -157,10 +159,9 @@ function Work () {
                                 </div>
                                 <div className="col-12 cardtext">
                                     <p className="card-text">
-                                        Recipe & Beverage Finder lets you search through dozens of different fun recipes
-                                        and beverages. The application is composed of two parts, a search engine for recipes
-                                        and a search engine for beverages. The results of the search have their own section to
-                                        keep things nice & organized.
+                                        This was my "Hello World" application. The first project that I put together 
+                                        using only HTML and CSS. Run Buddy is a website that offers amazing fitness 
+                                        training services.
                                     </p>
                                 </div>
                             </div>
@@ -168,12 +169,12 @@ function Work () {
                         <div className="theback">
                             <div className="container">
                                 <div className="cardbutton">
-                                    <form action="https://github.com/itsmarcotime/Recipe-and-Beverage-Finder">
+                                    <form action="https://github.com/itsmarcotime/run-buddy">
                                         <input type="submit" value="GitHub Repo" className="formbox"/>
                                     </form>
                                 </div>
                                 <div className="cardbutton">
-                                    <form action="https://itsmarcotime.github.io/Recipe-and-Beverage-Finder/">
+                                    <form action="https://itsmarcotime.github.io/run-buddy/">
                                         <input type="submit" value="Live Site" className="formbox"/>
                                     </form>
                                 </div>
