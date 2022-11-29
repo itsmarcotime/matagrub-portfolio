@@ -1,10 +1,14 @@
 import React from "react";
+import TextSphere from "../TextSphere";
 
-function Resume () {
+function Resume() {
+
     return (
-        <section>
-            <h1 id="about">Who am I?</h1>
-        </section>
+        <>
+            <section>
+                <TextSphere></TextSphere>
+            </section>
+        </>
     );
 }
 
