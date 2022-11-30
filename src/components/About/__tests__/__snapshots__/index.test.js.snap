@@ -3,17 +3,52 @@
 exports[`about component matches snapshot on DOM 1`] = `
 <DocumentFragment>
   <section>
-    <h1
-      id="about"
+    <div
+      class="d-flex aboutContainer"
     >
-      Who am I?
-    </h1>
-    <img
-      alt="cover"
-      class="my-2"
-      src="BreenGrub-logo.jpg"
-      style="width: 100%;"
-    />
+      <div
+        class="col-4 text-center statusBox"
+      >
+        <p
+          class="aboutStatus"
+        >
+          SUBJECT: MARCO A. MATA
+          <br />
+          <br />
+          STATUS: OBSERVATION 
+          <br />
+          <br />
+          REASON:
+          <br />
+           AWAITING FURTHER DATA
+        </p>
+      </div>
+      <div
+        class="col-4"
+      >
+        <img
+          alt="portfolio-pic"
+          class="aboutImg"
+          height="300"
+          src="portfolioPic.jfif"
+          width="300"
+        />
+      </div>
+      <div
+        class="col-4 text-center statusBox"
+      >
+        <p
+          class="aboutText"
+        >
+          DESCRIPTION:
+        </p>
+        <p
+          class="aboutText"
+        >
+          Subject has completed a full stack programming bootcamp from University of Texas in San Antonio. Strong interests in understanding the deeper meaning and functions of everything around us. Continuous learner who loves working with JavaScript, React, and Python. Born to be a back-end developer, but will never be afraid of front-end work. Hobbies include jogging, philosophy, physics, and eating Pho. 🍜
+        </p>
+      </div>
+    </div>
   </section>
 </DocumentFragment>
 `;

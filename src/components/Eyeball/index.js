@@ -3,8 +3,6 @@ import React from "react";
 function Eyeball() {
 
     document.addEventListener('mousemove', (e) => {
-        console.log(e);
-    
         const mouseX = e.clientX;
         const mouseY = e.clientY;
     

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`about component matches snapshot on DOM 1`] = `
+<DocumentFragment>
+  <div
+    class="text-sphere"
+  >
+    <span
+      class="tagcloud"
+    />
+  </div>
+</DocumentFragment>
+`;

@@ -404,7 +404,7 @@ body {
 
 
 /* start resume page */
-.text-sphere {
+/* .text-sphere {
     position: relative;
     top: 0;
     width: 100%;
@@ -412,24 +412,38 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1e1e1e;
 }
 
 .tagcloud {
     display: inline-block;
     top: 0;
     left: 0;
-    font-family: "Inter", sans-serif;
     font-weight: 600;
     letter-spacing: 0.0625em;
     font-size: 1.3em;
 }
 
 .tagcloud--item {
-    color: #00ffffff;
+    color: black;
     text-transform: uppercase;
 }
 
 .tagcloud--item:hover {
-    color: #ff6347;
+    color: rgb(224, 167, 101);
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  background-color: #000
 }
+
+.tagcloud {
+    font-family: 'Poppins', sans-serif;  
+    font-size: 20px;
+    margin: auto;
+    width: 50%;
+  }
+  .tagcloud--item:hover {
+    color: #36454F;
+  }
