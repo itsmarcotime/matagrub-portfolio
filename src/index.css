@@ -163,13 +163,12 @@ body {
 }
 
 .home-div {
-    padding: 60px;
+    padding: 10px;
     border: rgb(224, 167, 101) solid 3px;
     border-radius: 1%;
     text-shadow: 0px 0px 5px orange;
-    margin-right: 75px;
     font-weight: bolder;
-    font-size: 17px;
+    font-size: 18px;
     background-color: #333;
     box-shadow: inset 10px 10px 100px black;
     color: rgb(224, 167, 101);
@@ -488,3 +487,10 @@ body {
   .tagcloud--item:hover {
     color: #36454F;
   } */
+
+  #canvas1 {
+    top: 0;
+    width: 50%;
+    height: 50%;
+    background: black;
+}
