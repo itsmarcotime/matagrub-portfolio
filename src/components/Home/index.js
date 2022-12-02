@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Marquee from "react-fast-marquee";
-import matagrub from "../../assets/images/matagrub.jpg";
+import EyeBunch from "../EyeBunch";
 
 function Home() {
     const [texts, setTexts] = useState([]);
@@ -37,13 +37,14 @@ function Home() {
             </Marquee>
             <div className="m-5 row justify-content-around">
                 <div className="grubContainer col">
-                    <img
+                    {/* <img
                         src={matagrub}
                         alt="matagrub-img"
                         className="matagrub"
                         width={300}
                         height={300}
-                    />
+                    /> */}
+                    <EyeBunch></EyeBunch>
                 </div>
                 <div className="home-div col">
                     <div className="home-text">

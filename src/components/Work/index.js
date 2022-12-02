@@ -17,7 +17,7 @@ function Work () {
                         <div className="thefront">
                             <div className="container">
                                 <div className="col-12 cardtitle">
-                                    Recipe & Beverage Finder
+                                    Recipe & Beverage Finder (Group Project)
                                 </div>
                                 <div className="col-12 cardimg">
                                     <img
@@ -59,7 +59,7 @@ function Work () {
                         <div className="thefront">
                             <div className="container">
                                 <div className="col-12 cardtitle">
-                                    The Forgotten Pages
+                                    The Forgotten Pages <br />(Group Project)
                                 </div>
                                 <div className="col-12 cardimg">
                                     <img
@@ -102,7 +102,7 @@ function Work () {
                         <div className="thefront">
                             <div className="container">
                                 <div className="col-12 cardtitle">
-                                    Restaurant Helper
+                                    Restaurant Helper <br />(Group Project)
                                 </div>
                                 <div className="col-12 cardimg">
                                     <img
@@ -115,12 +115,11 @@ function Work () {
                                 </div>
                                 <div className="col-12 cardtext">
                                     <p className="card-text">
-                                        Restaurant Helper is a simple solution that can help out a 
+                                        Restaurant Helper is a simple solution made to help out a 
                                         wide range of food vendors stay organized and up to date with current 
                                         orders. Whether it be a food truck that needs help staying organized, 
                                         or a small restaurant who doesn't want to spend big money on complex 
-                                        software. The Restaurant Helper application is easy to use & free to 
-                                        download.
+                                        software.
                                     </p>
                                 </div>
                             </div>
@@ -230,6 +229,258 @@ function Work () {
                             <div className="container">
                                 <div className="col-12 cardtitle">
                                     Recipe & Beverage Finder 6
+                                </div>
+                                <div className="col-12 cardimg">
+                                    <img
+                                        src={RBFpic}
+                                        alt="recipe-beverage-finder"
+                                        className=""
+                                        width={250}
+                                        height={100}
+                                    />
+                                </div>
+                                <div className="col-12 cardtext">
+                                    <p className="card-text">
+                                        Recipe & Beverage Finder lets you search through dozens of different fun recipes
+                                        and beverages. The application is composed of two parts, a search engine for recipes
+                                        and a search engine for beverages. The results of the search have their own section to
+                                        keep things nice & organized.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="theback">
+                            <div className="container">
+                                <div className="cardbutton">
+                                    <form action="https://github.com/itsmarcotime/Recipe-and-Beverage-Finder">
+                                        <input type="submit" value="GitHub Repo" className="formbox"/>
+                                    </form>
+                                </div>
+                                <div className="cardbutton">
+                                    <form action="https://itsmarcotime.github.io/Recipe-and-Beverage-Finder/">
+                                        <input type="submit" value="Live Site" className="formbox"/>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-3 maincontainer">
+                    <div className="thecard">
+                        <div className="thefront">
+                            <div className="container">
+                                <div className="col-12 cardtitle">
+                                    Recipe & Beverage Finder 7
+                                </div>
+                                <div className="col-12 cardimg">
+                                    <img
+                                        src={RBFpic}
+                                        alt="recipe-beverage-finder"
+                                        className=""
+                                        width={250}
+                                        height={100}
+                                    />
+                                </div>
+                                <div className="col-12 cardtext">
+                                    <p className="card-text">
+                                        Recipe & Beverage Finder lets you search through dozens of different fun recipes
+                                        and beverages. The application is composed of two parts, a search engine for recipes
+                                        and a search engine for beverages. The results of the search have their own section to
+                                        keep things nice & organized.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="theback">
+                            <div className="container">
+                                <div className="cardbutton">
+                                    <form action="https://github.com/itsmarcotime/Recipe-and-Beverage-Finder">
+                                        <input type="submit" value="GitHub Repo" className="formbox"/>
+                                    </form>
+                                </div>
+                                <div className="cardbutton">
+                                    <form action="https://itsmarcotime.github.io/Recipe-and-Beverage-Finder/">
+                                        <input type="submit" value="Live Site" className="formbox"/>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-3 maincontainer">
+                    <div className="thecard">
+                        <div className="thefront">
+                            <div className="container">
+                                <div className="col-12 cardtitle">
+                                    Recipe & Beverage Finder 8
+                                </div>
+                                <div className="col-12 cardimg">
+                                    <img
+                                        src={RBFpic}
+                                        alt="recipe-beverage-finder"
+                                        className=""
+                                        width={250}
+                                        height={100}
+                                    />
+                                </div>
+                                <div className="col-12 cardtext">
+                                    <p className="card-text">
+                                        Recipe & Beverage Finder lets you search through dozens of different fun recipes
+                                        and beverages. The application is composed of two parts, a search engine for recipes
+                                        and a search engine for beverages. The results of the search have their own section to
+                                        keep things nice & organized.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="theback">
+                            <div className="container">
+                                <div className="cardbutton">
+                                    <form action="https://github.com/itsmarcotime/Recipe-and-Beverage-Finder">
+                                        <input type="submit" value="GitHub Repo" className="formbox"/>
+                                    </form>
+                                </div>
+                                <div className="cardbutton">
+                                    <form action="https://itsmarcotime.github.io/Recipe-and-Beverage-Finder/">
+                                        <input type="submit" value="Live Site" className="formbox"/>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-3 maincontainer">
+                    <div className="thecard">
+                        <div className="thefront">
+                            <div className="container">
+                                <div className="col-12 cardtitle">
+                                    Recipe & Beverage Finder 9
+                                </div>
+                                <div className="col-12 cardimg">
+                                    <img
+                                        src={RBFpic}
+                                        alt="recipe-beverage-finder"
+                                        className=""
+                                        width={250}
+                                        height={100}
+                                    />
+                                </div>
+                                <div className="col-12 cardtext">
+                                    <p className="card-text">
+                                        Recipe & Beverage Finder lets you search through dozens of different fun recipes
+                                        and beverages. The application is composed of two parts, a search engine for recipes
+                                        and a search engine for beverages. The results of the search have their own section to
+                                        keep things nice & organized.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="theback">
+                            <div className="container">
+                                <div className="cardbutton">
+                                    <form action="https://github.com/itsmarcotime/Recipe-and-Beverage-Finder">
+                                        <input type="submit" value="GitHub Repo" className="formbox"/>
+                                    </form>
+                                </div>
+                                <div className="cardbutton">
+                                    <form action="https://itsmarcotime.github.io/Recipe-and-Beverage-Finder/">
+                                        <input type="submit" value="Live Site" className="formbox"/>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-3 maincontainer">
+                    <div className="thecard">
+                        <div className="thefront">
+                            <div className="container">
+                                <div className="col-12 cardtitle">
+                                    Recipe & Beverage Finder 10
+                                </div>
+                                <div className="col-12 cardimg">
+                                    <img
+                                        src={RBFpic}
+                                        alt="recipe-beverage-finder"
+                                        className=""
+                                        width={250}
+                                        height={100}
+                                    />
+                                </div>
+                                <div className="col-12 cardtext">
+                                    <p className="card-text">
+                                        Recipe & Beverage Finder lets you search through dozens of different fun recipes
+                                        and beverages. The application is composed of two parts, a search engine for recipes
+                                        and a search engine for beverages. The results of the search have their own section to
+                                        keep things nice & organized.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="theback">
+                            <div className="container">
+                                <div className="cardbutton">
+                                    <form action="https://github.com/itsmarcotime/Recipe-and-Beverage-Finder">
+                                        <input type="submit" value="GitHub Repo" className="formbox"/>
+                                    </form>
+                                </div>
+                                <div className="cardbutton">
+                                    <form action="https://itsmarcotime.github.io/Recipe-and-Beverage-Finder/">
+                                        <input type="submit" value="Live Site" className="formbox"/>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-3 maincontainer">
+                    <div className="thecard">
+                        <div className="thefront">
+                            <div className="container">
+                                <div className="col-12 cardtitle">
+                                    Recipe & Beverage Finder 11
+                                </div>
+                                <div className="col-12 cardimg">
+                                    <img
+                                        src={RBFpic}
+                                        alt="recipe-beverage-finder"
+                                        className=""
+                                        width={250}
+                                        height={100}
+                                    />
+                                </div>
+                                <div className="col-12 cardtext">
+                                    <p className="card-text">
+                                        Recipe & Beverage Finder lets you search through dozens of different fun recipes
+                                        and beverages. The application is composed of two parts, a search engine for recipes
+                                        and a search engine for beverages. The results of the search have their own section to
+                                        keep things nice & organized.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="theback">
+                            <div className="container">
+                                <div className="cardbutton">
+                                    <form action="https://github.com/itsmarcotime/Recipe-and-Beverage-Finder">
+                                        <input type="submit" value="GitHub Repo" className="formbox"/>
+                                    </form>
+                                </div>
+                                <div className="cardbutton">
+                                    <form action="https://itsmarcotime.github.io/Recipe-and-Beverage-Finder/">
+                                        <input type="submit" value="Live Site" className="formbox"/>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-3 maincontainer">
+                    <div className="thecard">
+                        <div className="thefront">
+                            <div className="container">
+                                <div className="col-12 cardtitle">
+                                    Recipe & Beverage Finder 12
                                 </div>
                                 <div className="col-12 cardimg">
                                     <img

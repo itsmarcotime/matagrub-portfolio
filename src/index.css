@@ -399,6 +399,30 @@ body {
     color: #333;
 }
 
+.contactlist:hover {
+    border: solid 3px rgb(224, 167, 101);
+    box-shadow:  0px 0px 30px rgb(224, 167, 101);
+}
+
+.contactlist:hover a {
+    color: rgb(224, 167, 101);
+    text-shadow: 0px 0px 10px black;
+}
+
+.contactlist:hover p {
+    color: rgb(224, 167, 101);
+    text-shadow: 0px 0px 10px black;
+}
+
+.contactlist:hover .contacticon {
+    color: rgb(224, 167, 101);
+}
+
+.contactlist p {
+    font-weight: bold;
+    font-size: 17px;
+}
+
 .contacttitle {
     margin-top: 30px;
     margin-bottom: 40px;
@@ -407,8 +431,17 @@ body {
     box-shadow: inset 10px 10px 100px black;
     color: rgb(224, 167, 101);
     text-shadow: 0px 0px 10px orange;
-    font-weight: bold;
     background-color: #333;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.contacttitle h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+.contacttitle h4 {
+    font-weight: bold;
 }
 
 .firstcontact {
@@ -418,7 +451,7 @@ body {
 
 
 /* start resume page */
-/* .text-sphere {
+.text-sphere {
     position: relative;
     top: 0;
     width: 100%;
@@ -444,15 +477,9 @@ body {
 
 .tagcloud--item:hover {
     color: rgb(224, 167, 101);
-} */
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-body {
-  background-color: #000
 }
 
-.tagcloud {
+/* .tagcloud {
     font-family: 'Poppins', sans-serif;  
     font-size: 20px;
     margin: auto;
@@ -460,4 +487,4 @@ body {
   }
   .tagcloud--item:hover {
     color: #36454F;
-  }
+  } */
